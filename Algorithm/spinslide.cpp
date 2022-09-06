@@ -12,6 +12,7 @@ void spin(char src[100][100], char dst[100][100]) {
 	}
 }
 
+// test
 void slide(char grid[100][100]) {
 	for (int c = 0; c < N; c++) {
 		int blank = 0;
