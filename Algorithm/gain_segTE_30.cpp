@@ -1,3 +1,4 @@
+// test
 #include <bits/stdc++.h>
 #define endl '\n'
 using namespace std;
@@ -43,13 +44,13 @@ void nC2(int depth, int next) {
 	if (depth == 2) {
 		int sectionIn = getMax(1, 0, n - 1, comb[0], comb[1]) - getMin(1, 0, n - 1, comb[0], comb[1]);
 		int sectionOut = 0;
-		if (comb[0] - 1 < 0 && comb[1] + 1 > n - 1) { // lÀÌ ¹è¿­ÀÇ Ã¹ ¹øÂ°, rÀÌ ¹è¿­ÀÇ ¸¶Áö¸·
+		if (comb[0] - 1 < 0 && comb[1] + 1 > n - 1) { // lì´ ë°°ì—´ì˜ ì²« ë²ˆì§¸, rì´ ë°°ì—´ì˜ ë§ˆì§€ë§‰
 			sectionOut = 0;
 		}
-		else if (comb[0] - 1 < 0 && comb[1] + 1 <= n - 1) { // l(0)~r(sectionIn), r+1~n-1(sectionOut) lÀÌ ¹è¿­ÀÇ Ã¹ ¹øÂ°
+		else if (comb[0] - 1 < 0 && comb[1] + 1 <= n - 1) { // l(0)~r(sectionIn), r+1~n-1(sectionOut) lì´ ë°°ì—´ì˜ ì²« ë²ˆì§¸
 			sectionOut = getMax(1, 0, n - 1, comb[1] + 1, n - 1) - getMin(1, 0, n - 1, comb[1] + 1, n - 1);
 		}
-		else if (comb[1] + 1 > n - 1 && comb[0] - 1 >= 0) { // 0~l-1(sectionOut), l~n-1(sectionIn) rÀÌ ¹è¿­ÀÇ ¸¶Áö¸·
+		else if (comb[1] + 1 > n - 1 && comb[0] - 1 >= 0) { // 0~l-1(sectionOut), l~n-1(sectionIn) rì´ ë°°ì—´ì˜ ë§ˆì§€ë§‰
 			sectionOut = getMax(1, 0, n - 1, 0, comb[0] - 1) - getMin(1, 0, n - 1, 0, comb[0] - 1);
 		}
 		else { // 0~l-1 l~r r+1~n-1
