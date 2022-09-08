@@ -25,7 +25,7 @@ void solve() {
 		}
 		++elevator;
 	}
-	// end는 계단을 N번만큼 계단을 다 올랐을 때 도착해있는 층
+	// end는 N번만큼 계단을 다 올랐을 때 도착해있는 층
 	if (end != F) ++elevator;
 	cout << elevator << endl;
 }
