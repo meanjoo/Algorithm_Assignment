@@ -11,6 +11,7 @@ void solve() {
 	for (int i = 0; i < n; i++)
 		cin >> arr[i];
 	sort(arr.begin(), arr.end());
+	// 정확한 구간을 구하는 게 아니기 때문에 최대값 2개와 최소값 2개를 찾아놓으면 거기서 구간을 정할 수 있다.
 	cout << arr[n - 1] + arr[n - 2] - arr[0] - arr[1] << endl;
 }
 

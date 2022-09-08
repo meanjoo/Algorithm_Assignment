@@ -3,16 +3,30 @@
 using namespace std;
 
 void solve() {
-	int M, F, N, elevator = 1;
-	// 일단 무조건 층에서 끝까지 오르기
+	int M, F, N, elevator = 0, end = 0;
 	cin >> M >> F >> N;
-	if (N >= F - 1)
-		N -= F - 1;
-	
+	// 일단 무조건 현재 층(F층)에서 오를 수 있는 계단 수 내에서 최대한 많이 오르고 시작
+	if (M - F <= N) {
+		end = M;
+		N -= M - F;
+	}
+	else {
+		end = F + N;
+		N -= N;
+	}
 	while (N > 0) {
-		N -= N >= M ? M : N;
+		if (N - (M - 1) >= 0) {
+			end = M;
+			N -= M - 1;
+		}
+		else {
+			end = max(N + 1, F);
+			N -= N;
+		}
 		++elevator;
 	}
+	// end는 계단을 N번만큼 계단을 다 올랐을 때 도착해있는 층
+	if (end != F) ++elevator;
 	cout << elevator << endl;
 }
 
