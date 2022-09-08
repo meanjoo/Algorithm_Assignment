@@ -4,11 +4,15 @@ using namespace std;
 
 void solve() {
 	int M, F, N, elevator = 1;
+	// 일단 무조건 층에서 끝까지 오르기
 	cin >> M >> F >> N;
 	if (N >= F - 1)
 		N -= F - 1;
-	elevator += N / M;
-	if (N % M != 0) ++elevator;
+	
+	while (N > 0) {
+		N -= N >= M ? M : N;
+		++elevator;
+	}
 	cout << elevator << endl;
 }
 
