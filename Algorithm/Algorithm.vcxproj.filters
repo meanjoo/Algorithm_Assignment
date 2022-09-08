@@ -27,6 +27,9 @@
     <ClCompile Include="gain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="stairs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.inp">
@@ -45,6 +48,12 @@
       <Filter>리소스 파일</Filter>
     </None>
     <None Include="gain.out">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="stairs.inp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="stairs.out">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
