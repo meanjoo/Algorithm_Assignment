@@ -5,12 +5,10 @@ using namespace std;
 void solve() {
 	int M, F, N, elevator = 1;
 	cin >> M >> F >> N;
-	while (N - (M - 1) >= F - 1) {
-		N -= M - 1;
-		++elevator;
-	}
-	if (N > F - 1)
-		elevator += 1;
+	if (N >= F - 1)
+		N -= F - 1;
+	elevator += N / M;
+	if (N % M != 0) ++elevator;
 	cout << elevator << endl;
 }
 
