@@ -21,6 +21,9 @@
     <ClCompile Include="spinslide.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="gain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.inp">
@@ -33,6 +36,12 @@
       <Filter>리소스 파일</Filter>
     </None>
     <None Include="spinslide.out">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="gain.inp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="gain.out">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
