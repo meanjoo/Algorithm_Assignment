@@ -36,6 +36,19 @@ level 1; s = 17, e = 24 (= 17 + 4 * 2 - 1)
 level 2; s = 25, e = 24 (= 25 + 4 * 0 - 1) // e가 정확하지는 않지만 level 값을 구하는 데에는 영향을 주지 않는다.
 <img src="https://github.com/meanjoo/LinkPicture/blob/main/getLevel.jpg" width="600" height=auto/>
 
-`Point getPoint(ll n, ll level, ll num)` := level을 기반으로 해서 n * n 달팽이 배열에서 num의 좌표를 리턴하는 함수
+`Point getPoint(ll n, ll level, ll num)` := level을 기반으로 해서 n * n 달팽이 배열에서 num의 좌표를 리턴하는 함수  
+해당 레벨의 시작 숫자 = 이전 레벨 시작 숫자 + 이전 레벨에 존재하는 숫자의 개수  
+level 0; 1  
+level 1; 1 + 4(n-1)  
+level 2; 1 + 4(n-1) + 4(n-3) = 1 + 4((n-1) + (n-3))  
+level 3; 1 + 4(n-1) + 4(n-3) + 4(n-5) = 1 + 4((n-1) + (n-3) + (n-5))  
+...  
+level k; 1 + 4(n-1) + 4(n-3) + 4(n-5) + 4(n-7) + ... + 4(n-(2k-1)) = 1 + 4((n-1)+(n-3)+(n-5)+(n-7)+...+(n-(2k-1)))  
+따라서 level k의 시작 숫자는 1 + 4((n-1)+(n-3)+(n-5)+(n-7)+...+(n-(2k-1)))임을 알 수 있다.  
+식을 정리하면 1 + 4*(nk - 1부터 총 k개의 홀수의 합)이다. 1부터 k까지의 홀수의 합은 n<sup>2</sup>이다.  
+(&Sigma;(n=1~k)(2n-1)을 정리해보면 k<sup>2</sup>이다.)  
+즉 해당 레벨의 시작 숫자는 1+(n * k - k<sup>2</sup>)이다.
+step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이라고 생각한다.  
+(4가지 진행방향을 나누어서 좌표를 구한 후 반환하는 과정)  
 
-`bool isSqure(Point& p1, Point& p2)` := 두 점을 꼭짓점으로 하는 사각형이 정사각형인지를 리턴하는 함수
+`bool isSqure(Point& p1, Point& p2)` := 두 점을 꼭짓점으로 하는 사각형이 정사각형인지를 리턴하는 함수  
