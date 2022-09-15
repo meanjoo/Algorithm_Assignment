@@ -30,6 +30,9 @@
     <ClCompile Include="stairs.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="snail.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.inp">
@@ -54,6 +57,12 @@
       <Filter>리소스 파일</Filter>
     </None>
     <None Include="stairs.out">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="snail.inp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="snail.out">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
