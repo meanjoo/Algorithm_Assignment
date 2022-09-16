@@ -147,7 +147,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="snail.cpp" />
+    <ClCompile Include="grid.cpp" />
+    <ClCompile Include="snail.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="spinslide.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -163,6 +166,8 @@
   <ItemGroup>
     <None Include="gain.inp" />
     <None Include="gain.out" />
+    <None Include="grid.inp" />
+    <None Include="grid.out" />
     <None Include="snail.inp" />
     <None Include="snail.out" />
     <None Include="spinslide.inp" />
