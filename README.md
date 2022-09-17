@@ -11,7 +11,7 @@
 
 - [x] 05_[달팽이](https://github.com/meanjoo/Algorithm_Assignment#05_%EB%8B%AC%ED%8C%BD%EC%9D%B4)([snail.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/snail.cpp))
 
-- [x] 06_격자 색칠([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/grid.cpp))
+- [x] 06_[격자 색칠](https://github.com/meanjoo/Algorithm_Assignment#06_%EA%B2%A9%EC%9E%90-%EC%83%89%EC%B9%A0)([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/grid.cpp))
 
 <hr>
 
