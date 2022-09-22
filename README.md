@@ -13,6 +13,10 @@
 
 - [x] 06_격자 색칠([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/grid.cpp))
 
+- [x]
+
+- [x] [같은 문제](https://www.acmicpc.net/problem/6397)
+
 <hr>
 
 #### 05_달팽이
