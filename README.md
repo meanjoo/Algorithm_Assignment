@@ -13,9 +13,9 @@
 
 - [x] 06_격자 색칠([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/grid.cpp))
 
-- [x]
+- [x] 07_순열을 이진트리로
 
-- [x] [같은 문제](https://www.acmicpc.net/problem/6397)
+- [x] Bitmap[같은 문제](https://www.acmicpc.net/problem/6397)
 
 <hr>
 
