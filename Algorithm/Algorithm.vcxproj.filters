@@ -36,6 +36,9 @@
     <ClCompile Include="grid.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="permutation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.inp">
@@ -72,6 +75,12 @@
       <Filter>리소스 파일</Filter>
     </None>
     <None Include="grid.out">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="permutation.inp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="permutation.out">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>

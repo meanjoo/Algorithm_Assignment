@@ -147,7 +147,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="grid.cpp" />
+    <ClCompile Include="grid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="permutation.cpp" />
     <ClCompile Include="snail.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -168,6 +171,8 @@
     <None Include="gain.out" />
     <None Include="grid.inp" />
     <None Include="grid.out" />
+    <None Include="permutation.inp" />
+    <None Include="permutation.out" />
     <None Include="snail.inp" />
     <None Include="snail.out" />
     <None Include="spinslide.inp" />
