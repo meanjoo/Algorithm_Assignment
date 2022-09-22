@@ -15,7 +15,7 @@
 
 - [x] 07_순열을 이진트리로
 
-- [x] Bitmap[같은 문제](https://www.acmicpc.net/problem/6397)
+- [x] 08_Bitmap - [같은 문제](https://www.acmicpc.net/problem/6397)
 
 <hr>
 
