@@ -13,9 +13,9 @@
 
 - [x] 06_격자 색칠([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/grid.cpp))
 
-- [x] 07_순열을 이진트리로
+- [x] 07_순열을 이진트리로([permutation.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/permutation.cpp))
 
-- [x] 08_Bitmap - [같은 문제](https://www.acmicpc.net/problem/6397)
+- [x] 08_Bitmap([bitmap.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/bitmap.cpp)) - [같은 문제](https://www.acmicpc.net/problem/6397)
 
 <hr>
 
