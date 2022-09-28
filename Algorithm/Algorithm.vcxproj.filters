@@ -42,6 +42,9 @@
     <ClCompile Include="bitmap.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="gridpath.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.inp">
@@ -90,6 +93,12 @@
       <Filter>리소스 파일</Filter>
     </None>
     <None Include="bitmap.out">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="gridpath.inp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="gridpath.out">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
