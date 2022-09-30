@@ -25,7 +25,7 @@
 
 - [x] 10_[Coin Game](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#10_coin-game)([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/coin.cpp))
 
-- [x] 11_Coin Move Game([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/coinmove.cpp))
+- [x] 11_[Coin Move Game](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#11_coin-move-game)([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/coinmove.cpp))
 
 <hr>
 
@@ -129,4 +129,5 @@ dp[i][j][k]가 coin의 상태가 (i j k)일 때 나의 승패라고 했는데 �
 ** 뭔가 Misere nim을 쓸 수 있을 거 같은데 이 이론을 잘 모르겠어서 어떻게 하는지를 모르겠고 적용이 가능한지도 모르겠다.
 
 ### 11_Coin Move Game
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
 
