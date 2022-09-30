@@ -30,6 +30,8 @@
 <hr>
 
 ### 05_달팽이
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+
 (2022.09.15) 이렇게 푸는 게 맞는지도 모르겠지만 나중에 어떤 생각으로 짰는지 모를 거 같아서 쓰는 내가 작성한 함수에 대한 설명이다.  
 푸는 방법은 숫자가 몇 번째 껍질에 존재하는지 구해서 이를 기반으로 숫자의 좌표를 알아내는 것이라고 생각했다.
 
@@ -68,6 +70,8 @@ step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이�
 `bool isSqure(Point& p1, Point& p2)` := 두 점을 꼭짓점으로 하는 사각형이 정사각형인지를 리턴하는 함수  
 
 ### 06_격자 색칠
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+
 아름답게 칠한다는 것은 결국 사각형은 세로 방향으로만으로 색칠되든지 가로 방향으로만 색칠되어야 한다.  
 세로로 또는 가로로 최소 2줄 이상의 줄을 하나의 색깔로 칠하면서 사각형을 가득 채울 수 있는지 판별하는 문제이다. 사용하지 않는 물감이 있어도 된다.  
 물감으로 칠할 수 있는 칸이 2줄 이상이라면 최대 그 물감으로 몇 줄을 칠할 수 있는지 카운팅한다.  
@@ -85,6 +89,8 @@ step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이�
 모든 물감에 대해 이를 반복한 후에 cnt가 N 이상이면 아름답게 칠할 수 있다는 것이다.
 
 ### 10_Coin Game
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+
 Top-down 방식으로 짰다. memoization하기 위한 배열을 3차원 배열로 뒀다. 코인은 항상 3더미이기 때문이다.  
 **dp[i][j][k]는 내 차례때 코인이 (i j k)라면 그때의 승패여부이다.**  
 각 코인 더미의 최대 코인 개수는 100개이므로 101 * 101 * 101 배열을 만들어주면 된다.  
