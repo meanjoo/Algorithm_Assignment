@@ -165,8 +165,16 @@ for k ← 1 to K: 내가 받은 판의 행과 일치하는 k를 제외하고 dp[
 철수가 받은 판의 승패여부가 전부 W이면 영희는 필패이다. 철수가 받은 판 중에 하나라도 필패가 있으면 영희는 필승이다.
 
 ex)  
-* 6 3 15
-* 7 4 5
+* 6 3 15  
+철수가 받은 판 중에 철수가 필패하는 경우가 있으므로 영희는 이길 수 있다.  
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/coinmove6315.jpg"/>  
+
+
+* 7 4 5  
+철수가 받은 판은 전부 철수가 필승이므로 영희는 이길 수 없다.  
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/coinmove745.jpg"/>  
+
++) 이 문제에서는 만약 L이 여러 개면 가장 큰 열 번호를 출력한다. i:1부터 K까지 돌다가 L이 나오면 바로 S-i를 출력하고 break
 
 ※ Top-down으로도 짜봤는데 왜 시간 초과일까??? 6번 데이터에서 터져서 50점인 코드
 ```
