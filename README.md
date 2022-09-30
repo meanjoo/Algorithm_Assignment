@@ -23,7 +23,7 @@
 
 - [x] 09_격자 경로([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/gridpath.cpp))
 
-- [x] 10_Coin Game([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/coin.cpp))
+- [x] 10_[Coin Game](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#10_coin-game)([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/coin.cpp))
 
 - [ ] 11_Coin Move Game
 
