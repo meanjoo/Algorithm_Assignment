@@ -13,9 +13,19 @@
 
 - [x] 06_격자 색칠([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/grid.cpp))
 
+== Divide & Conquer ==
+
 - [x] 07_순열을 이진트리로([permutation.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/permutation.cpp))
 
 - [x] 08_Bitmap([bitmap.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/bitmap.cpp)) - [같은 문제](https://www.acmicpc.net/problem/6397)
+
+== Dynamic Programming ==
+
+- [x] 09_격자 경로([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/gridpath.cpp))
+
+- [x] 10_Coin Game([coin.cpp]())
+
+- [ ] 11_Coin Move Game
 
 <hr>
 
