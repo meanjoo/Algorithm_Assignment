@@ -91,7 +91,7 @@ step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이�
 ### 10_Coin Game
 [목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
 
-Top-down 방식으로 짰다. memoization하기 위한 배열을 3차원 배열로 뒀다. 코인은 항상 3더미이기 때문이다.  
+Top-down 방식으로 짰다. memoization하기 위한 배열을 3차원 배열로 둔다. 코인은 항상 3더미이기 때문이다.  
 **dp[i][j][k]는 내 차례때 코인이 (i j k)라면 그때의 승패여부이다.**  
 각 코인 더미의 최대 코인 개수는 100개이므로 101 * 101 * 101 배열을 만들어주면 된다.  
 메모리를 조금이라도 줄이려고 dp 배열을 int가 아닌 char로 선언했다. 게다가 승패만 알면 돼서 값도 int까지 필요없다.
@@ -131,3 +131,107 @@ dp[i][j][k]가 coin의 상태가 (i j k)일 때 나의 승패라고 했는데 �
 ### 11_Coin Move Game
 [목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
 
+Bottom-up 방식으로 짰다. memoization을 하기 위한 배열을 2차원 배열로 둔다.  
+**j는 내가 받았을 때의 coin 위치이고, i는 상대방이 몇 칸을 이동해서 j로 온지를 나타낸다.  
+dp[i][j]는 상대방이 i만큼 coin을 이동해서 j에 도착한 상태의 판을 내가 받은 것이고, 저장된 값은 내가 이 판을 받았을 때의 나의 승패여부이다.  
+dp[i][j]의 값이 'W'이면 필승, 'L'이면 필패이다.**  
+i가 있어야 하는 이유는 직전에 상대방이 이동한 거리로는 동전을 이동시킬 수 없기 때문이다.
+
+우선 이전 값들을 이용하는 것이 아닌 게임 시작 전 미리 채울 수 있는 열들에 대해서 생각해보자.  
+1. 내가 받은 판에 동전이 0번에 있으면 나는 필패이다.  
+동전을 무조건 1칸 이상 왼쪽으로 이동시켜야 하는데 0번에서 1칸 이상 왼쪽이면 음수 번째이고  
+음수 번째에는 전부 x 표시가 되어있으므로 나는 무조건 x로 동전을 이동시키는 경우밖에 없다. 따라서 0번 열을 L로 채운다.  
+2. 내가 받은 판에 동전이 음수 번째에 있으면 나는 필승이다.  
+상대방이 음수 번째에 놓고 나한테 이 판이 넘어온 건데 이미 상대방이 음수 번째에 놓은 시점에서 상대방이 졌다.  
+배열의 인덱스에는 음수가 허용되지 않으므로 만약 음수 번째에 놓으려고 하면 바로 W라고 하면 된다.  
+(근데 승패여부 결정은 L 개수로 판단돼서 음수 번째라면 고려하지 않아도 된다.)
+3. K의 배수에 x 표시가 되어 있다. 내가 받은 판이 K의 배수라면 나는 필승이다.  
+이유는 동전이 음수 번째에 있을 때와 같다. 따라서 K의 배수번째 열을 W로 채운다.
+
+1.에서 0열을 채웠으므로 1행에서 K행, 1열부터 S-1열인 2차원 배열의 값을 채우면 된다. dp 배열을 채우는 방법은 다음과 같다.  
+**내가 이동함으로써 상대방을 필패(L)하게 만드는 경우가 하나 이상 존재하면 나는 필승(W)이다.  
+상대방에게 필패하는 판을 넘겨주면 되기 때문이다.  
+하지만 내가 이동하고 넘기는 판의 모든 경우가 상대방의 필승(W)이라면 나는 필패(L)이다.**
+
+동전을 이동시킬 수 있는 거리는 1~K이다.  
+for k ← 1 to K: 내가 받은 판의 행과 일치하는 k를 제외하고 dp[k][현재 있는 위치-k]가 내가 이동하고 넘길 수 있는 모든 판이다.  
+(주의: 현재 있는 위치-k가 음수가 아니어야 한다. 배열 인덱스에 음수가 없을 뿐더러(잘못된 배열 접근) L 개수만 필요한데 음수면 W이다.)  
+이 판들의 승패여부(넘기는 판) 중 하나 이상 L이 있으면 내 자리는 W이고, 아니면(=전부 W) L이다.
+
+이러한 과정을 거쳐 dp 배열이 전부 구성되었다고 하자.  
+우리가 봐야하는 값은 for k ← 1 to K: dp[k][S-k]이다.  
+이게 뭐냐면 영희(항상 영희가 先)가 1부터 K까지 코인을 옮겨봤을 때 철수가 받을 수 있는 판의 승패여부이다.  
+(영희가 항상 먼저 시작하니까 영희는 상대방이 이동한 거리가 없어 1~K까지 전부 옮겨볼 수 있다.)  
+철수가 받은 판의 승패여부가 전부 W이면 영희는 필패이다. 철수가 받은 판 중에 하나라도 필패가 있으면 영희는 필승이다.
+
+ex)  
+* 6 3 15
+* 7 4 5
+
+※ Top-down으로도 짜봤는데 왜 시간 초과일까??? 6번 데이터에서 터져서 50점인 코드
+```
+//Top-down
+#include <bits/stdc++.h>
+#define endl '\n'
+using namespace std;
+
+int P, K, S;
+vector<char> dp[8];
+
+char winlose(int x, int y) {
+	if (y < 0)
+		return 'W';
+	if (dp[x][y] == 'L' || dp[x][y] == 'W')
+		return dp[x][y];
+
+	int cntL = 0;
+	for (int i = 1; i <= K; i++) {
+		if (i == x)
+			continue;
+		if (winlose(i, y - i) == 'L')
+			++cntL;
+	}
+
+	char val = cntL > 0 ? 'W' : 'L';
+	return dp[x][y] = val;
+}
+
+void solve() {
+	cin >> P >> K >> S;
+	for (int i = 1; i <= K; i++) {
+		dp[i].clear();
+		dp[i].resize(S, ' ');
+		dp[i][0] = 'L';
+	}
+	for (int i = P; i < S; i += P) {
+		for (int j = 1; j <= K; j++)
+			dp[j][i] = 'W';
+	}
+
+	for (int i = 1; i <= K; i++)
+		winlose(i, S - i);
+
+	int gap = 0;
+	for (int i = 1; i <= K; i++) {
+		if (S - i >= 0 && dp[i][S - i] == 'L') {
+			gap = i;
+			break;
+		}
+	}
+
+	gap == 0 ? cout << "-1" << endl : cout << S - gap << endl;
+}
+
+int main() {
+	ios::sync_with_stdio(0);
+	cin.tie(0); cout.tie(0);
+	freopen("coinmove.inp", "r", stdin);
+	freopen("coinmove.out", "w", stdout);
+
+	int T;
+	cin >> T;
+	for (int tc = 1; tc <= T; tc++)
+		solve();
+	return 0;
+}
+```
