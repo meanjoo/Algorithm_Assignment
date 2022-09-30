@@ -142,7 +142,10 @@
     <ClCompile Include="bitmap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="coin.cpp" />
+    <ClCompile Include="coin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="coinmove.cpp" />
     <ClCompile Include="gain.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -180,6 +183,8 @@
     <None Include="bitmap.out" />
     <None Include="coin.inp" />
     <None Include="coin.out" />
+    <None Include="coinmove.inp" />
+    <None Include="coinmove.out" />
     <None Include="gain.inp" />
     <None Include="gain.out" />
     <None Include="grid.inp" />

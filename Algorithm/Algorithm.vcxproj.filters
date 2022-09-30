@@ -48,6 +48,9 @@
     <ClCompile Include="coin.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="coinmove.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.inp">
@@ -108,6 +111,12 @@
       <Filter>리소스 파일</Filter>
     </None>
     <None Include="coin.out">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="coinmove.inp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="coinmove.out">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
