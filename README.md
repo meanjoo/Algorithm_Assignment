@@ -21,7 +21,7 @@
 
 == Dynamic Programming ==
 
-- [x] 09_격자 경로([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/gridpath.cpp))
+- [x] 09_[격자 경로](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#09_%EA%B2%A9%EC%9E%90-%EA%B2%BD%EB%A1%9C)([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/gridpath.cpp))
 
 - [x] 10_[Coin Game](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#10_coin-game)([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/coin.cpp))
 
