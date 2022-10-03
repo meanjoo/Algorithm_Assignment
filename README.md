@@ -228,7 +228,7 @@ ex)
 
 +) 이 문제에서는 만약 L이 여러 개면 가장 큰 열 번호를 출력한다. i:1부터 K까지 돌다가 L이 나오면 바로 S-i를 출력하고 break
 
-※ Top-down으로도 짜봤는데 왜 시간 초과일까??? 6번 데이터에서 터져서 50점인 코드
+※ Top-down으로도 짜봤는데 왜 터지는지??? 6번 데이터에서 터져서 50점인 코드
 ```
 //Top-down
 #include <bits/stdc++.h>
@@ -248,8 +248,10 @@ char winlose(int x, int y) {
 	for (int i = 1; i <= K; i++) {
 		if (i == x)
 			continue;
-		if (winlose(i, y - i) == 'L')
+		if (winlose(i, y - i) == 'L') {
 			++cntL;
+			break;
+		}
 	}
 
 	char val = cntL > 0 ? 'W' : 'L';
