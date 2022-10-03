@@ -27,8 +27,10 @@ void solve() {
 			for (int i = 1; i <= K; i++) {
 				if (i == row)
 					continue;
-				if (col - i >= 0 && dp[i][col - i] == 'L')
+				if (col - i >= 0 && dp[i][col - i] == 'L') {
 					++cntL;
+					break;
+				}
 			}
 			dp[row][col] = cntL > 0 ? 'W' : 'L';
 		}
