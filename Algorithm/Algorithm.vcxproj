@@ -142,10 +142,13 @@
     <ClCompile Include="bitmap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="card.cpp" />
     <ClCompile Include="coin.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="coinmove.cpp" />
+    <ClCompile Include="coinmove.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="gain.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -158,6 +161,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="gridpath.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="path.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="permutation.cpp">
@@ -181,6 +187,8 @@
   <ItemGroup>
     <None Include="bitmap.inp" />
     <None Include="bitmap.out" />
+    <None Include="card.inp" />
+    <None Include="card.out" />
     <None Include="coin.inp" />
     <None Include="coin.out" />
     <None Include="coinmove.inp" />
@@ -191,6 +199,8 @@
     <None Include="grid.out" />
     <None Include="gridpath.inp" />
     <None Include="gridpath.out" />
+    <None Include="path.inp" />
+    <None Include="path.out" />
     <None Include="permutation.inp" />
     <None Include="permutation.out" />
     <None Include="snail.inp" />
