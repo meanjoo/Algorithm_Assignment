@@ -57,6 +57,12 @@
     <ClCompile Include="card.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="cube.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cute2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.inp">
@@ -135,6 +141,12 @@
       <Filter>리소스 파일</Filter>
     </None>
     <None Include="card.out">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="cube.inp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="cube.out">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
