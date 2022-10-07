@@ -27,6 +27,12 @@
 
 - [x] 11_[Coin Move Game](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#11_coin-move-game)([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/coinmove.cpp))
 
+- [x] 12_[정육면체 자르기]()([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/cube.cpp))
+
+- [x] 13_
+
+- [x] 14_
+
 <hr>
 
 ### 05_달팽이
