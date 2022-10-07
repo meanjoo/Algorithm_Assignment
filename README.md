@@ -1,7 +1,7 @@
 # Algorithm_Assignment_Code
 2022-2학기 알고리즘 과제
 
-- [x] 01_Test ([source code](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/test.cpp))
+- [x] 01_Test ([test.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/test.cpp))
 
 - [x] 02_Spin & Slide ([spinslide.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/spinslide.cpp))
 
