@@ -234,7 +234,12 @@ ex)
 
 +) 이 문제에서는 만약 L이 여러 개면 가장 큰 열 번호를 출력한다. i:1부터 K까지 돌다가 L이 나오면 바로 S-i를 출력하고 break
 
-※ Top-down으로도 짜봤는데 왜 터지는지??? 6번 데이터에서 터져서 50점인 코드
+~~※ Top-down으로도 짜봤는데 왜 터지는지???~~ 6번 데이터에서 터져서 50점인 코드  
+이 문제는 Top-down으로 짜면 안 된다.  
+Top-down은 결국 재귀 호출로 짜게 돼있는데 Top-down dp 방식이라는 게 중복 계산만 없다뿐이지 함수를 호출하는 건 재귀와 다를 게 없다.  
+즉 함수 호출을 많이 한다면 Top-down으로 짜는 건 좋은 선택이 아니다.  
+이 문제에서 S가 커질수록 트리의 깊이가 평균적으로 매우매우매우 깊어진다. 그래서 아마 stack overflow로 터지는 거 같다.  
+이걸로 깨달은 게 dp는 그냥 bottom-up으로 짜는 게 좋은 거 같다.  
 ```
 //Top-down
 #include <bits/stdc++.h>
@@ -303,3 +308,17 @@ int main() {
 	return 0;
 }
 ```
+
+### 12_정육면체 자르기
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+
+
+
+### 13_카드 선택
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+
+
+
+### 14_격자경로(또 다른)
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+
