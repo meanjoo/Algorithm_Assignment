@@ -29,7 +29,7 @@
 
 - [x] 12_[정육면체 자르기](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#12_%EC%A0%95%EC%9C%A1%EB%A9%B4%EC%B2%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0) ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
 
-- [x] 13_[카드 선택](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#13_%EC%B9%B4%EB%93%9C-%EC%84%A0%ED%83%9D) ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/card.cpp))
+- [x] 13_[카드 선택](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#13_%EC%B9%B4%EB%93%9C-%EC%84%A0%ED%83%9D) ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/card.cpp))
 
 - [x] 14_[격자경로(또 다른)](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#14_%EA%B2%A9%EC%9E%90%EA%B2%BD%EB%A1%9C%EB%98%90-%EB%8B%A4%EB%A5%B8) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/path.cpp))
 
