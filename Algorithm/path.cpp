@@ -2,10 +2,10 @@
 #define endl '\n'
 #define x first
 #define y second
-#define MOD 100000
-#define MAX 99999999
 using namespace std;
 typedef pair<int, int> Point;
+const int MOD = 100000;
+const int MAX = 999999999;
 
 typedef struct _myStruct {
 	int cnt[202], min[202];
@@ -57,7 +57,8 @@ void solve() {
 	getInput();
 
 	// 0행
-	for (int col = 1, chk = 0; col < N; col++) {
+	int chk = mark[0][0] ? 1 : 0;
+	for (int col = 1; col < N; col++) {
 		int prevCost = dp[0][col - 1].min[chk];
 		if (mark[0][col])
 			++chk;
@@ -67,7 +68,8 @@ void solve() {
 	}
 
 	// 0열
-	for (int row = 1, chk = 0; row < M; row++) {
+	chk = mark[0][0] ? 1 : 0;
+	for (int row = 1; row < M; row++) {
 		int prevCost = dp[row - 1][0].min[chk];
 		if (mark[row][0])
 			++chk;
@@ -102,35 +104,17 @@ void solve() {
 		}
 	}
 
-	// dp 출력 보기
-	for (int i = 0; i < M; i++) {
-		for (int j = 0; j < N; j++) {
-			cout << "(";
-			for (int k = 0; k <= K + 1; k++) {
-				cout << dp[i][j].cnt[k] << "," << dp[i][j].min[k] << ",[" << dp[i][j].path[k].x << "," << dp[i][j].path[k].y << "]/";
-			}
-			//cout << dp[i][j].cnt[3] << "," << dp[i][j].min[3] << ",[" << dp[i][j].path[3].x << "," << dp[i][j].path[3].y << "]/";
-
-			cout << ") ";
-		}
-		cout << endl;
-	}
-
 	for (int k = 0; k <= K; k++) {
-		if (dp[M - 1][N - 1].cnt[k] != 0) { // 가는 경로가 있는 경우 출력
+		if (dp[M - 1][N - 1]. cnt[k] != 0) { // 가는 경로가 0이 아닌 경우 출력
 			cout << "k:" << k << " count:" << dp[M - 1][N - 1].cnt[k] << " cost:" << dp[M - 1][N - 1].min[k] << endl;
 			vector<Point> vp;
 			int cx = M - 1, cy = N - 1, markCnt = k;
 			while (cx != 0 || cy != 0) {
 				vp.push_back({ cx,cy });
 				int nx = dp[cx][cy].path[markCnt].x, ny = dp[cx][cy].path[markCnt].y;
-				if (mark[cx][cy]) {
+				if (mark[cx][cy])
 					--markCnt;
-					//
-				}
-
 				cx = nx; cy = ny;
-				//표시된 곳에 왔을 때 점 이동. 점을 옮긴 뒤에 표시된 횟수를 줄여야 한다.
 			}
 			reverse(vp.begin(), vp.end());
 			cout << "(0,0)";
