@@ -35,7 +35,7 @@
 
 <hr>
 
-### 05_달팽이
+# 05_달팽이
 [목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code)
 
 (2022.09.15) 이렇게 푸는 게 맞는지도 모르겠지만 나중에 어떤 생각으로 짰는지 모를 거 같아서 쓰는 내가 작성한 함수에 대한 설명이다.  
@@ -75,7 +75,7 @@ step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이�
 
 `bool isSqure(Point& p1, Point& p2)` := 두 점을 꼭짓점으로 하는 사각형이 정사각형인지를 리턴하는 함수  
 
-### 06_격자 색칠
+# 06_격자 색칠
 [목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code)
 
 아름답게 칠한다는 것은 결국 사각형은 세로 방향으로만으로 색칠되든지 가로 방향으로만 색칠되어야 한다.  
@@ -94,7 +94,7 @@ step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이�
 물감의 용량을 M으로 나눈 몫이 2 이상이면 cnt에 그 몫을 더해준다.  
 모든 물감에 대해 이를 반복한 후에 cnt가 N 이상이면 아름답게 칠할 수 있다는 것이다.
 
-### 09_격자 경로
+# 09_격자 경로
 [목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code)
 
 전형적인 최소 경로 비용 합을 찾는 dp 문제 + 그 경로를 추적하면 되는 문제이다.  
@@ -147,7 +147,7 @@ ps) 문제가 어렵다기보다 처음에 우측 우선 경로라는 것을 이
 (2, 3)까지 오는 빨간색 경로와 파란색 경로가 있으면 (2, 3)에서는 빨간색 경로를 택해야 한다는 것이다.  
 빨간색 경로가 (0, 0)에서 우측으로 더 먼저 이동한 경로이기 때문이다.
 
-### 10_Coin Game
+# 10_Coin Game
 [목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code)
 
 Top-down 방식으로 짰다. memoization하기 위한 배열을 3차원 배열로 둔다. 코인은 항상 3더미이기 때문이다.  
@@ -187,7 +187,7 @@ dp[i][j][k]가 coin의 상태가 (i j k)일 때 나의 승패라고 했는데 �
 
 ** 뭔가 Misere nim을 쓸 수 있을 거 같은데 이 이론을 잘 모르겠어서 어떻게 하는지를 모르겠고 적용이 가능한지도 모르겠다.
 
-### 11_Coin Move Game
+# 11_Coin Move Game
 [목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code)
 
 Bottom-up 방식으로 짰다. memoization을 하기 위한 배열을 2차원 배열로 둔다.  
@@ -309,12 +309,12 @@ int main() {
 }
 ```
 
-### 12_정육면체 자르기
+# 12_정육면체 자르기
 [목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code)
 
 
 
-### 13_카드 선택
+# 13_카드 선택
 [목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code)
 
 dp 배열의 크기를 최대 크기인 3 × 1000으로 잡아준다. 열의 max가 1000인 이유는 카드의 최대 장수가 1000이기 때문이다.  
@@ -333,7 +333,7 @@ j=0,1,2일 때는 위에서 채웠고,
 j>=3에 대해서 dp[i][j]를 어떤 값으로 채워야하는지 생각해보자.
 
 
-### 14_격자경로(또 다른)
+# 14_격자경로(또 다른)
 [목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code)
 
 문제 자체는 이미 강의에서 교수님이 다루신 내용이라 어렵지 않았는데  
