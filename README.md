@@ -11,7 +11,7 @@
 
 - [x] 05_[달팽이](https://github.com/meanjoo/Algorithm_Assignment_Code#05_%EB%8B%AC%ED%8C%BD%EC%9D%B4) ([snail.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/snail.cpp))
 
-- [x] 06_[격자 색칠](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#06_%EA%B2%A9%EC%9E%90-%EC%83%89%EC%B9%A0) ([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/grid.cpp))
+- [x] 06_[격자 색칠](https://github.com/meanjoo/Algorithm_Assignment_Code#06_%EA%B2%A9%EC%9E%90-%EC%83%89%EC%B9%A0) ([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/grid.cpp))
 
 == Divide & Conquer ==
 
@@ -21,17 +21,17 @@
 
 == Dynamic Programming ==
 
-- [x] 09_[격자 경로](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#09_%EA%B2%A9%EC%9E%90-%EA%B2%BD%EB%A1%9C) ([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gridpath.cpp))
+- [x] 09_[격자 경로](https://github.com/meanjoo/Algorithm_Assignment_Code#09_%EA%B2%A9%EC%9E%90-%EA%B2%BD%EB%A1%9C) ([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gridpath.cpp))
 
-- [x] 10_[Coin Game](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#10_coin-game) ([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coin.cpp))
+- [x] 10_[Coin Game](https://github.com/meanjoo/Algorithm_Assignment_Code#10_coin-game) ([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coin.cpp))
 
-- [x] 11_[Coin Move Game](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#11_coin-move-game) ([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coinmove.cpp))
+- [x] 11_[Coin Move Game](https://github.com/meanjoo/Algorithm_Assignment_Code#11_coin-move-game) ([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coinmove.cpp))
 
-- [x] 12_[정육면체 자르기](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#12_%EC%A0%95%EC%9C%A1%EB%A9%B4%EC%B2%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0) ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
+- [x] 12_[정육면체 자르기](https://github.com/meanjoo/Algorithm_Assignment_Code#12_%EC%A0%95%EC%9C%A1%EB%A9%B4%EC%B2%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0) ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
 
-- [x] 13_[카드 선택](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#13_%EC%B9%B4%EB%93%9C-%EC%84%A0%ED%83%9D) ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp))
+- [x] 13_[카드 선택](https://github.com/meanjoo/Algorithm_Assignment_Code#13_%EC%B9%B4%EB%93%9C-%EC%84%A0%ED%83%9D) ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp))
 
-- [x] 14_[격자경로(또 다른)](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#14_%EA%B2%A9%EC%9E%90%EA%B2%BD%EB%A1%9C%EB%98%90-%EB%8B%A4%EB%A5%B8) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/path.cpp))
+- [x] 14_[격자경로(또 다른)](https://github.com/meanjoo/Algorithm_Assignment_Code#14_%EA%B2%A9%EC%9E%90%EA%B2%BD%EB%A1%9C%EB%98%90-%EB%8B%A4%EB%A5%B8) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/path.cpp))
 
 <hr>
 
