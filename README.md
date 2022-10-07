@@ -1,42 +1,42 @@
 # Algorithm_Assignment_Code
 2022-2학기 알고리즘 과제
 
-- [x] 01_Test ([test.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/test.cpp))
+- [x] 01_Test ([test.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/test.cpp))
 
-- [x] 02_Spin & Slide ([spinslide.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/spinslide.cpp))
+- [x] 02_Spin & Slide ([spinslide.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/spinslide.cpp))
 
-- [x] 03_계단 오르기 ([stairs.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/stairs.cpp))
+- [x] 03_계단 오르기 ([stairs.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/stairs.cpp))
 
-- [x] 04_Interesting Gain ([gain.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/gain.cpp))
+- [x] 04_Interesting Gain ([gain.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gain.cpp))
 
-- [x] 05_[달팽이](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#05_%EB%8B%AC%ED%8C%BD%EC%9D%B4) ([snail.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/snail.cpp))
+- [x] 05_[달팽이](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#05_%EB%8B%AC%ED%8C%BD%EC%9D%B4) ([snail.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/snail.cpp))
 
-- [x] 06_[격자 색칠](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#06_%EA%B2%A9%EC%9E%90-%EC%83%89%EC%B9%A0) ([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/grid.cpp))
+- [x] 06_[격자 색칠](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#06_%EA%B2%A9%EC%9E%90-%EC%83%89%EC%B9%A0) ([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/grid.cpp))
 
 == Divide & Conquer ==
 
-- [x] 07_순열을 이진트리로 ([permutation.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/permutation.cpp))
+- [x] 07_순열을 이진트리로 ([permutation.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/permutation.cpp))
 
-- [x] 08_Bitmap ([bitmap.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/bitmap.cpp)) - [같은 문제](https://www.acmicpc.net/problem/6397)
+- [x] 08_Bitmap ([bitmap.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/bitmap.cpp)) - [같은 문제](https://www.acmicpc.net/problem/6397)
 
 == Dynamic Programming ==
 
-- [x] 09_[격자 경로](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#09_%EA%B2%A9%EC%9E%90-%EA%B2%BD%EB%A1%9C) ([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/gridpath.cpp))
+- [x] 09_[격자 경로](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#09_%EA%B2%A9%EC%9E%90-%EA%B2%BD%EB%A1%9C) ([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gridpath.cpp))
 
-- [x] 10_[Coin Game](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#10_coin-game) ([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/coin.cpp))
+- [x] 10_[Coin Game](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#10_coin-game) ([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coin.cpp))
 
-- [x] 11_[Coin Move Game](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#11_coin-move-game) ([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/coinmove.cpp))
+- [x] 11_[Coin Move Game](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#11_coin-move-game) ([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coinmove.cpp))
 
-- [x] 12_[정육면체 자르기](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#12_%EC%A0%95%EC%9C%A1%EB%A9%B4%EC%B2%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0) ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
+- [x] 12_[정육면체 자르기](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#12_%EC%A0%95%EC%9C%A1%EB%A9%B4%EC%B2%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0) ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
 
-- [x] 13_[카드 선택](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#13_%EC%B9%B4%EB%93%9C-%EC%84%A0%ED%83%9D) ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/card.cpp))
+- [x] 13_[카드 선택](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#13_%EC%B9%B4%EB%93%9C-%EC%84%A0%ED%83%9D) ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp))
 
-- [x] 14_[격자경로(또 다른)](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#14_%EA%B2%A9%EC%9E%90%EA%B2%BD%EB%A1%9C%EB%98%90-%EB%8B%A4%EB%A5%B8) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/path.cpp))
+- [x] 14_[격자경로(또 다른)](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#14_%EA%B2%A9%EC%9E%90%EA%B2%BD%EB%A1%9C%EB%98%90-%EB%8B%A4%EB%A5%B8) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/path.cpp))
 
 <hr>
 
 ### 05_달팽이
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#algorithm_assignment)
 
 (2022.09.15) 이렇게 푸는 게 맞는지도 모르겠지만 나중에 어떤 생각으로 짰는지 모를 거 같아서 쓰는 내가 작성한 함수에 대한 설명이다.  
 푸는 방법은 숫자가 몇 번째 껍질에 존재하는지 구해서 이를 기반으로 숫자의 좌표를 알아내는 것이라고 생각했다.
@@ -76,7 +76,7 @@ step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이�
 `bool isSqure(Point& p1, Point& p2)` := 두 점을 꼭짓점으로 하는 사각형이 정사각형인지를 리턴하는 함수  
 
 ### 06_격자 색칠
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#algorithm_assignment)
 
 아름답게 칠한다는 것은 결국 사각형은 세로 방향으로만으로 색칠되든지 가로 방향으로만 색칠되어야 한다.  
 세로로 또는 가로로 최소 2줄 이상의 줄을 하나의 색깔로 칠하면서 사각형을 가득 채울 수 있는지 판별하는 문제이다. 사용하지 않는 물감이 있어도 된다.  
@@ -95,7 +95,7 @@ step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이�
 모든 물감에 대해 이를 반복한 후에 cnt가 N 이상이면 아름답게 칠할 수 있다는 것이다.
 
 ### 09_격자 경로
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#algorithm_assignment)
 
 전형적인 최소 경로 비용 합을 찾는 dp 문제 + 그 경로를 추적하면 되는 문제이다.  
 만약 최소 경로 비용이 같으면 우측 우선 경로를 택한다.
@@ -148,7 +148,7 @@ ps) 문제가 어렵다기보다 처음에 우측 우선 경로라는 것을 이
 빨간색 경로가 (0, 0)에서 우측으로 더 먼저 이동한 경로이기 때문이다.
 
 ### 10_Coin Game
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#algorithm_assignment)
 
 Top-down 방식으로 짰다. memoization하기 위한 배열을 3차원 배열로 둔다. 코인은 항상 3더미이기 때문이다.  
 **dp[i][j][k]는 내 차례때 코인이 (i j k)라면 그때의 승패여부이다.**  
@@ -188,7 +188,7 @@ dp[i][j][k]가 coin의 상태가 (i j k)일 때 나의 승패라고 했는데 �
 ** 뭔가 Misere nim을 쓸 수 있을 거 같은데 이 이론을 잘 모르겠어서 어떻게 하는지를 모르겠고 적용이 가능한지도 모르겠다.
 
 ### 11_Coin Move Game
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#algorithm_assignment)
 
 Bottom-up 방식으로 짰다. memoization을 하기 위한 배열을 2차원 배열로 둔다.  
 **j는 내가 받았을 때의 coin 위치이고, i는 상대방이 몇 칸을 이동해서 j로 온지를 나타낸다.  
@@ -310,12 +310,12 @@ int main() {
 ```
 
 ### 12_정육면체 자르기
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#algorithm_assignment)
 
 
 
 ### 13_카드 선택
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#algorithm_assignment)
 
 dp 배열의 크기를 최대 크기인 3 × 1000으로 잡아준다. 열의 max가 1000인 이유는 카드의 최대 장수가 1000이기 때문이다.  
 0행은 i번째 카드를 선택하고 i-2번째 카드를 선택한 경우의 최대 합,  
@@ -334,7 +334,7 @@ j>=3에 대해서 dp[i][j]를 어떤 값으로 채워야하는지 생각해보�
 
 
 ### 14_격자경로(또 다른)
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#algorithm_assignment)
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#algorithm_assignment)
 
 문제 자체는 이미 강의에서 교수님이 다루신 내용이라 어렵지 않았는데  
 나의 제멋대로 해석하고 이해하기 때문에 몇 번을 의미없는 제출을 했는지 모르겠다.  
