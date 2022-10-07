@@ -9,7 +9,7 @@
 
 - [x] 04_Interesting Gain ([gain.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gain.cpp))
 
-- [x] 05_[달팽이](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#05_%EB%8B%AC%ED%8C%BD%EC%9D%B4) ([snail.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/snail.cpp))
+- [x] 05_[달팽이](https://github.com/meanjoo/Algorithm_Assignment_Code#05_%EB%8B%AC%ED%8C%BD%EC%9D%B4) ([snail.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/snail.cpp))
 
 - [x] 06_[격자 색칠](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#06_%EA%B2%A9%EC%9E%90-%EC%83%89%EC%B9%A0) ([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/grid.cpp))
 
@@ -36,7 +36,7 @@
 <hr>
 
 ### 05_달팽이
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/README.md#algorithm_assignment)
+[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code)
 
 (2022.09.15) 이렇게 푸는 게 맞는지도 모르겠지만 나중에 어떤 생각으로 짰는지 모를 거 같아서 쓰는 내가 작성한 함수에 대한 설명이다.  
 푸는 방법은 숫자가 몇 번째 껍질에 존재하는지 구해서 이를 기반으로 숫자의 좌표를 알아내는 것이라고 생각했다.
