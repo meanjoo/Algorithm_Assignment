@@ -27,7 +27,7 @@
 
 - [x] 11_[Coin Move Game](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#11_coin-move-game) ([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/coinmove.cpp))
 
-- [x] 12_[정육면체 자르기]() ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
+- [x] 12_[정육면체 자르기](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#12_%EC%A0%95%EC%9C%A1%EB%A9%B4%EC%B2%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0) ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
 
 - [x] 13_[카드 선택]() ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/card.cpp))
 
