@@ -31,7 +31,7 @@
 
 - [x] 13_[카드 선택](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#13_%EC%B9%B4%EB%93%9C-%EC%84%A0%ED%83%9D) ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/card.cpp))
 
-- [x] 14_[격자경로(또 다른)]() ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/path.cpp))
+- [x] 14_[격자경로(또 다른)](https://github.com/meanjoo/Algorithm_Assignment/blob/master/README.md#14_%EA%B2%A9%EC%9E%90%EA%B2%BD%EB%A1%9C%EB%98%90-%EB%8B%A4%EB%A5%B8) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment/blob/master/Algorithm/path.cpp))
 
 <hr>
 
