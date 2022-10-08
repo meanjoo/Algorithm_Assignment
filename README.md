@@ -358,13 +358,17 @@ j-4(=k)번째 카드를 선택하는 경우에도 k-2, k-3, k-4번째 중 무엇
 단, j==3일 때는 j-4번째 인덱스가 없기 때문에 (j번째, j-2번째)를 선택하는 경우와 (j번째, j-3번째)를 선택하는 경우 중 더 큰 값을 가지는 쪽을 선택하면 된다.  
 이 값은 각각 dp[0][j]와 dp[1][j]에 대응되므로 `dp[2][3] = max(dp[0][3], dp[1][3])`이다. 
 
-위 내용들을 정리하면 아래와 같은 식이 나온다.  
+위 내용들을 정리하면 아래와 같은 식이 나온다.
+
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/formal13.jpg" width="800" height=auto/>
 
 마지막 카드는 반드시 선택해야하므로 max(dp[0][n-1], dp[1][n-1], dp[2][n-1])이 정답이다.
 
-- 카드가 (-3 -2 4 7 -5 -6 8 9 8 9 5)일 때 완성된 dp 배열
+- 카드가 (-3 -2 4 7 -5 -6 8 9 8 9 5)일 때 완성된 dp 배열  
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/13ex1.jpg" width="800" height=auto/>
 
-- 카드가 (24 15 -56 -4 100 7)일 때 완성된 dp 배열
+- 카드가 (24 15 -56 -4 100 7)일 때 완성된 dp 배열  
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/13ex2.jpg" width="500" height=auto/>
 
 
 
