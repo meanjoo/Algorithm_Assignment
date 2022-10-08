@@ -105,7 +105,7 @@ void solve() {
 	}
 
 	for (int k = 0; k <= K; k++) {
-		if (dp[M - 1][N - 1]. cnt[k] != 0) { // 가는 경로가 0이 아닌 경우 출력
+		if (dp[M - 1][N - 1].cnt[k] != 0) { // 가는 경로가 0이 아닌 경우 출력
 			cout << "k:" << k << " count:" << dp[M - 1][N - 1].cnt[k] << " cost:" << dp[M - 1][N - 1].min[k] << endl;
 			vector<Point> vp;
 			int cx = M - 1, cy = N - 1, markCnt = k;
