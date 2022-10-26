@@ -35,7 +35,7 @@
 
 - [ ] 15. Card Game
 
-- [x] 16. Adding Ways
+- [x] 16. Adding Ways ([addingways.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/addingways.cpp))
 
 - [ ] 17. Color Length
 
