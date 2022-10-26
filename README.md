@@ -405,10 +405,14 @@ dp[2][4]는 {2 5 2}에서 내가 선일 때 얻을 수 있는 점수의 최댓�
 같은 논리로 카드를 맨 끝에서 가져왔다면 내가 얻을 수 있는 점수의 최댓값은 card[right] + ps[right-1] - ps[left-1] - dp[left][right-1]이다.  
 이 둘 중 더 큰 값이 [left, right]에서 내가 선일 때 얻을 수 있는 점수의 최댓값이다.
 
-점화식으로 나타내면 아래와 같다.  
-dp[left][right] = card[left];    if left == right  
-dp[left][right] = max(card[left], card[right])    if left == right-1  
-dp[left][right] = max(card[left] + ps[right] - ps[left] - dp[left+1][right], card[right] + ps[right-1] - ps[left-1] - dp[left][right-1])    else
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/15relation.jpg" />
+
+
+ex. {1 2 5 2}  
+초록색은 dp 값이고, 괄호 안의 값은 구간 합이다.
+
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/15card.jpg" />
+
 
 
 # 16. Adding Ways
