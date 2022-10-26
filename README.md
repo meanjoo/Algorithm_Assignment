@@ -33,7 +33,7 @@
 
 - [x] 14. 격자경로(또 다른) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/path.cpp))
 
-- [x] 15. Card Game ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp))
+- [x] 15. Card Game ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp)) - [같은 문제](https://www.acmicpc.net/problem/11062)
 
 - [x] 16. Adding Ways ([addingways.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/addingways.cpp))
 
