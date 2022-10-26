@@ -32,8 +32,8 @@ void solve() {
 int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0); cout.tie(0);
-	freopen("card.inp", "r", stdin);
-	freopen("card.out", "w", stdout);
+	freopen("card13.inp", "r", stdin);
+	freopen("card13.out", "w", stdout);
 
 	int T;
 	cin >> T;
