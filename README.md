@@ -1,43 +1,47 @@
 # Algorithm_Assignment_Code
 2022-2학기 알고리즘 과제
 
-- [x] 01_Test ([test.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/test.cpp))
+- [x] 01. Test ([test.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/test.cpp))
 
-- [x] 02_Spin & Slide ([spinslide.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/spinslide.cpp))
+- [x] 02. Spin & Slide ([spinslide.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/spinslide.cpp))
 
-- [x] 03_계단 오르기 ([stairs.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/stairs.cpp))
+- [x] 03. 계단 오르기 ([stairs.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/stairs.cpp))
 
-- [x] 04_Interesting Gain ([gain.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gain.cpp))
+- [x] 04. Interesting Gain ([gain.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gain.cpp))
 
-- [x] 05_[달팽이](https://github.com/meanjoo/Algorithm_Assignment_Code#05_%EB%8B%AC%ED%8C%BD%EC%9D%B4) ([snail.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/snail.cpp))
+- [x] 05. 달팽이 ([snail.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/snail.cpp))
 
-- [x] 06_[격자 색칠](https://github.com/meanjoo/Algorithm_Assignment_Code#06_%EA%B2%A9%EC%9E%90-%EC%83%89%EC%B9%A0) ([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/grid.cpp))
+- [x] 06. 격자 색칠 ([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/grid.cpp))
 
 == Divide & Conquer ==
 
-- [x] 07_순열을 이진트리로 ([permutation.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/permutation.cpp))
+- [x] 07. 순열을 이진트리로 ([permutation.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/permutation.cpp))
 
-- [x] 08_Bitmap ([bitmap.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/bitmap.cpp)) - [같은 문제](https://www.acmicpc.net/problem/6397)
+- [x] 08. Bitmap ([bitmap.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/bitmap.cpp)) - [같은 문제](https://www.acmicpc.net/problem/6397)
 
 == Dynamic Programming ==
 
-- [x] 09_[격자 경로](https://github.com/meanjoo/Algorithm_Assignment_Code#09_%EA%B2%A9%EC%9E%90-%EA%B2%BD%EB%A1%9C) ([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gridpath.cpp))
+- [x] 09. 격자 경로 ([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gridpath.cpp))
 
-- [x] 10_[Coin Game](https://github.com/meanjoo/Algorithm_Assignment_Code#10_coin-game) ([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coin.cpp))
+- [x] 10. Coin Game ([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coin.cpp))
 
-- [x] 11_[Coin Move Game](https://github.com/meanjoo/Algorithm_Assignment_Code#11_coin-move-game) ([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coinmove.cpp))
+- [x] 11. Coin Move Game ([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coinmove.cpp))
 
-- [x] 12_[정육면체 자르기](https://github.com/meanjoo/Algorithm_Assignment_Code#12_%EC%A0%95%EC%9C%A1%EB%A9%B4%EC%B2%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0) ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
+- [x] 12. 정육면체 자르기 ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
 
-- [x] 13_[카드 선택](https://github.com/meanjoo/Algorithm_Assignment_Code#13_%EC%B9%B4%EB%93%9C-%EC%84%A0%ED%83%9D) ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp))
+- [x] 13. 카드 선택 ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp))
 
-- [x] 14_[격자경로(또 다른)](https://github.com/meanjoo/Algorithm_Assignment_Code#14_%EA%B2%A9%EC%9E%90%EA%B2%BD%EB%A1%9C%EB%98%90-%EB%8B%A4%EB%A5%B8) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/path.cpp))
+- [x] 14. 격자경로(또 다른) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/path.cpp))
+
+- [ ] 15. Card Game
+
+- [x] 16. Adding Ways
+
+- [ ] 17. Color Length
 
 <hr>
 
 # 05_달팽이
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code#algorithm_assignment_code)
-
 (2022.09.15) 이렇게 푸는 게 맞는지도 모르겠지만 나중에 어떤 생각으로 짰는지 모를 거 같아서 쓰는 내가 작성한 함수에 대한 설명이다.  
 푸는 방법은 숫자가 몇 번째 껍질에 존재하는지 구해서 이를 기반으로 숫자의 좌표를 알아내는 것이라고 생각했다.
 
@@ -76,8 +80,6 @@ step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이�
 `bool isSqure(Point& p1, Point& p2)` := 두 점을 꼭짓점으로 하는 사각형이 정사각형인지를 리턴하는 함수  
 
 # 06_격자 색칠
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code#algorithm_assignment_code)
-
 아름답게 칠한다는 것은 결국 사각형은 세로 방향으로만으로 색칠되든지 가로 방향으로만 색칠되어야 한다.  
 세로로 또는 가로로 최소 2줄 이상의 줄을 하나의 색깔로 칠하면서 사각형을 가득 채울 수 있는지 판별하는 문제이다. 사용하지 않는 물감이 있어도 된다.  
 물감으로 칠할 수 있는 칸이 2줄 이상이라면 최대 그 물감으로 몇 줄을 칠할 수 있는지 카운팅한다.  
@@ -95,8 +97,6 @@ step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이�
 모든 물감에 대해 이를 반복한 후에 cnt가 N 이상이면 아름답게 칠할 수 있다는 것이다.
 
 # 09_격자 경로
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code#algorithm_assignment_code)
-
 전형적인 최소 경로 비용 합을 찾는 dp 문제 + 그 경로를 추적하면 되는 문제이다.  
 만약 최소 경로 비용이 같으면 우측 우선 경로를 택한다.
 
@@ -188,8 +188,6 @@ dp[i][j][k]가 coin의 상태가 (i j k)일 때 나의 승패라고 했는데 �
 ** 뭔가 Misere nim을 쓸 수 있을 거 같은데 이 이론을 잘 모르겠어서 어떻게 하는지를 모르겠고 적용이 가능한지도 모르겠다.
 
 # 11_Coin Move Game
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code#algorithm_assignment_code)
-
 Bottom-up 방식으로 짰다. memoization을 하기 위한 배열을 2차원 배열로 둔다.  
 **j는 내가 받았을 때의 coin 위치이고, i는 상대방이 몇 칸을 이동해서 j로 온지를 나타낸다.  
 dp[i][j]는 상대방이 i만큼 coin을 이동해서 j에 도착한 상태의 판을 내가 받은 것이고, 저장된 값은 내가 이 판을 받았을 때의 나의 승패여부이다.  
@@ -356,20 +354,22 @@ j-4(=k)번째 카드를 선택하는 경우에도 k-2, k-3, k-4번째 중 무엇
 따라서 dp[2][j]일 때의 식은 아래와 같다.  
 `dp[2][j] = card[j] + max(dp[0][j-4], dp[1][j-4], dp[2][j-4])`  
 단, j==3일 때는 j-4번째 인덱스가 없기 때문에 (j번째, j-2번째)를 선택하는 경우와 (j번째, j-3번째)를 선택하는 경우 중 더 큰 값을 가지는 쪽을 선택하면 된다.  
-이 값은 각각 dp[0][j]와 dp[1][j]에 대응되므로 `dp[2][3] = max(dp[0][3], dp[1][3]`이다. 
+이 값은 각각 dp[0][j]와 dp[1][j]에 대응되므로 `dp[2][3] = max(dp[0][3], dp[1][3])`이다. 
 
-위 내용들을 정리하면 아래와 같은 식이 나온다.  
+위 내용들을 정리하면 아래와 같은 식이 나온다.
 
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/formal13.jpg" width="800" height=auto/>
 
-- 카드가 (-3 -2 4 7 -5 -6 8 9 8 9 5)일 때 완성된 dp 배열
+마지막 카드는 반드시 선택해야하므로 max(dp[0][n-1], dp[1][n-1], dp[2][n-1])이 정답이다.
 
-- 카드가 (24 15 -56 -4 100 7)일 때 완성된 dp 배열
+- 카드가 (-3 -2 4 7 -5 -6 8 9 8 9 5)일 때 완성된 dp 배열  
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/13ex1.jpg" width="800" height=auto/>
 
+- 카드가 (24 15 -56 -4 100 7)일 때 완성된 dp 배열  
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/13ex2.jpg" width="500" height=auto/>
 
 
 # 14_격자경로(또 다른)
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code#algorithm_assignment_code)
-
 문제 자체는 이미 강의에서 교수님이 다루신 내용이라 어렵지 않았는데  
 문제를 제대로 꼼꼼히 안 읽은 나 때문에 몇 번을 의미없는 제출을 했는지 모르겠다.  
 한글 파일에 친절히 경로 수의 마지막 5자리의 값이 0인 경우, 실제로는 경로가 존재하더라도 경로가 존재하지 않는 것처럼 처리한다고 굵은 글씨로 강조돼있었다.  
@@ -378,3 +378,26 @@ j-4(=k)번째 카드를 선택하는 경우에도 k-2, k-3, k-4번째 중 무엇
 나는 이걸 출력을 한 거고, 문제에서는 출력을 하지 말라고 했기 때문에 30점이 비는 것 같다. (채점 데이터가 공개되면 확인해보자. 4 5 10 아니면 3 4 10이 0점이었음)  
 이걸 꽤나 뒤늦게 깨달아서 다른 엄한 데만 계속 고치고 있었다. 문제를 잘 읽읍시다....
 
+경로 추적시 내가 표시된 곳이면 내가 몇 개의 표시된 곳(k)을 거쳐서 왔는지를 기억한 후 일단 내가 어디서부터 왔는지, 즉 부모로 이동한 후에 그 부모에서 k-1개의 표시된 곳을 거쳐서 도착한 데에서 경로를 다시 추적하면 된다. 경로를 역추적하는 것이기 때문에 내가 표시된 곳이면 부모로 갔을 때 표시된 곳이 하나 줄어든다.
+
+다 끝나고 다시 보는데 뭔가 94번째 줄이 잘못된 것 같다? 마지막 칸은 k번 이상인 건데 이게 최솟값이 무조건 내 앞에거가 아니라 min(나, 내 앞)이어야 할 거 같은데 그래서 path도 이에 맞게 조정해야 하는 거 같다. 만약 k번 이상 지나가는 최소 구하는 거였으면 잘못된 답이 나올 거 같다.
+
+
+# 16. Adding Ways
+자연수의 분할 문제다.  
+① P(n, 1) = P(n, n) = 1  
+② P(n, k) = P(n-k, 1) + P(n-k, 2) + P(n-k, 3) + ... + P(n-k, k)  
+③ P(n, k) = P(n-1, k-1) + P(n-k, k)
+
+②: n을 k개의 자연수로 분할하는 것이기 때문에 항의 최솟값은 1이다.  
+k개한테 전부 1을 나눠주면 n-k가 남는다.  
+남은 n-k개는 1개로 나누어져도 되고, 2개로 나누어져도 되고, k개로 나누어져도 된다.
+
+③: 1을 포함하는 항이 적어도 1개는 존재하는 경우 → P(n-1, k-1)  
+1을 항 하나에 주고 나서 나머지 n-1을 k-1개로 분할하면 적어도 한 항은 1이다.  
+모든 항이 2 이상인 경우(1이 하나도 없음) → P(n-k, k)  
+n-k를 다 k개한테 나눠주고 나서 n-k를 k개로 나누는 P(n-k, k) 또한 자연수의 분할이기 때문에 P(n, k)의 최소 항은 2이다.
+
+②와 ③은 식의 형태만 다르지 값은 (당연하게도) 같다.  
+반복을 돌아야하는 ②와 달리 ③은 이전에 계산했던 결과만 보면 되기 때문에 ③이 더 빠르게 처리할 수 있다.  
+①과 ③을 이용해서 문제를 해결했다.
