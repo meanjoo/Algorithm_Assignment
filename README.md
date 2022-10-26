@@ -42,8 +42,6 @@
 <hr>
 
 # 05_달팽이
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code#algorithm_assignment_code)
-
 (2022.09.15) 이렇게 푸는 게 맞는지도 모르겠지만 나중에 어떤 생각으로 짰는지 모를 거 같아서 쓰는 내가 작성한 함수에 대한 설명이다.  
 푸는 방법은 숫자가 몇 번째 껍질에 존재하는지 구해서 이를 기반으로 숫자의 좌표를 알아내는 것이라고 생각했다.
 
@@ -82,8 +80,6 @@ step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이�
 `bool isSqure(Point& p1, Point& p2)` := 두 점을 꼭짓점으로 하는 사각형이 정사각형인지를 리턴하는 함수  
 
 # 06_격자 색칠
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code#algorithm_assignment_code)
-
 아름답게 칠한다는 것은 결국 사각형은 세로 방향으로만으로 색칠되든지 가로 방향으로만 색칠되어야 한다.  
 세로로 또는 가로로 최소 2줄 이상의 줄을 하나의 색깔로 칠하면서 사각형을 가득 채울 수 있는지 판별하는 문제이다. 사용하지 않는 물감이 있어도 된다.  
 물감으로 칠할 수 있는 칸이 2줄 이상이라면 최대 그 물감으로 몇 줄을 칠할 수 있는지 카운팅한다.  
@@ -101,8 +97,6 @@ step과 나머지 코드들은 나중에 봐도 다시 읽어보면 알 것이�
 모든 물감에 대해 이를 반복한 후에 cnt가 N 이상이면 아름답게 칠할 수 있다는 것이다.
 
 # 09_격자 경로
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code#algorithm_assignment_code)
-
 전형적인 최소 경로 비용 합을 찾는 dp 문제 + 그 경로를 추적하면 되는 문제이다.  
 만약 최소 경로 비용이 같으면 우측 우선 경로를 택한다.
 
@@ -194,8 +188,6 @@ dp[i][j][k]가 coin의 상태가 (i j k)일 때 나의 승패라고 했는데 �
 ** 뭔가 Misere nim을 쓸 수 있을 거 같은데 이 이론을 잘 모르겠어서 어떻게 하는지를 모르겠고 적용이 가능한지도 모르겠다.
 
 # 11_Coin Move Game
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code#algorithm_assignment_code)
-
 Bottom-up 방식으로 짰다. memoization을 하기 위한 배열을 2차원 배열로 둔다.  
 **j는 내가 받았을 때의 coin 위치이고, i는 상대방이 몇 칸을 이동해서 j로 온지를 나타낸다.  
 dp[i][j]는 상대방이 i만큼 coin을 이동해서 j에 도착한 상태의 판을 내가 받은 것이고, 저장된 값은 내가 이 판을 받았을 때의 나의 승패여부이다.  
@@ -379,8 +371,6 @@ j-4(=k)번째 카드를 선택하는 경우에도 k-2, k-3, k-4번째 중 무엇
 
 
 # 14_격자경로(또 다른)
-[목차로 이동](https://github.com/meanjoo/Algorithm_Assignment_Code#algorithm_assignment_code)
-
 문제 자체는 이미 강의에서 교수님이 다루신 내용이라 어렵지 않았는데  
 문제를 제대로 꼼꼼히 안 읽은 나 때문에 몇 번을 의미없는 제출을 했는지 모르겠다.  
 한글 파일에 친절히 경로 수의 마지막 5자리의 값이 0인 경우, 실제로는 경로가 존재하더라도 경로가 존재하지 않는 것처럼 처리한다고 굵은 글씨로 강조돼있었다.  
