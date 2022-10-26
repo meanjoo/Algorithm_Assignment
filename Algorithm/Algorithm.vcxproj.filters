@@ -54,7 +54,7 @@
     <ClCompile Include="path.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="card.cpp">
+    <ClCompile Include="card13.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="cube.cpp">
@@ -140,10 +140,10 @@
     <None Include="path.out">
       <Filter>리소스 파일</Filter>
     </None>
-    <None Include="card.inp">
+    <None Include="card13.inp">
       <Filter>리소스 파일</Filter>
     </None>
-    <None Include="card.out">
+    <None Include="card13.out">
       <Filter>리소스 파일</Filter>
     </None>
     <None Include="cube.inp">

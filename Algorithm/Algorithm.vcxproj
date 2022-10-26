@@ -145,7 +145,7 @@
     <ClCompile Include="bitmap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="card.cpp">
+    <ClCompile Include="card13.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="coin.cpp">
@@ -200,8 +200,8 @@
     <None Include="addingways.out" />
     <None Include="bitmap.inp" />
     <None Include="bitmap.out" />
-    <None Include="card.inp" />
-    <None Include="card.out" />
+    <None Include="card13.inp" />
+    <None Include="card13.out" />
     <None Include="coin.inp" />
     <None Include="coin.out" />
     <None Include="coinmove.inp" />
