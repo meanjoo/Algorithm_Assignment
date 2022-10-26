@@ -29,11 +29,11 @@
 
 - [x] 12. 정육면체 자르기 ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
 
-- [x] 13. 카드 선택 ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp))
+- [x] 13. 카드 선택 ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card13.cpp))
 
 - [x] 14. 격자경로(또 다른) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/path.cpp))
 
-- [ ] 15. Card Game
+- [x] 15. Card Game ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp))
 
 - [x] 16. Adding Ways ([addingways.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/addingways.cpp))
 
