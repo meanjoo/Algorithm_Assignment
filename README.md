@@ -405,6 +405,8 @@ dp[2][4]는 {2 5 2}에서 내가 선일 때 얻을 수 있는 점수의 최댓�
 같은 논리로 카드를 맨 끝에서 가져왔다면 내가 얻을 수 있는 점수의 최댓값은 card[right] + ps[right-1] - ps[left-1] - dp[left][right-1]이다.  
 이 둘 중 더 큰 값이 [left, right]에서 내가 선일 때 얻을 수 있는 점수의 최댓값이다.
 
+dp 배열은 ↘ 대각선 순서로 채워주면 된다.
+
 <img src="https://github.com/meanjoo/LinkPicture/blob/main/15relation.jpg" />
 
 
