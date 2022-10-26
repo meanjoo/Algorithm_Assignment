@@ -1,37 +1,43 @@
 # Algorithm_Assignment_Code
 2022-2학기 알고리즘 과제
 
-- [x] 01_Test ([test.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/test.cpp))
+- [x] 01. Test ([test.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/test.cpp))
 
-- [x] 02_Spin & Slide ([spinslide.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/spinslide.cpp))
+- [x] 02. Spin & Slide ([spinslide.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/spinslide.cpp))
 
-- [x] 03_계단 오르기 ([stairs.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/stairs.cpp))
+- [x] 03. 계단 오르기 ([stairs.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/stairs.cpp))
 
-- [x] 04_Interesting Gain ([gain.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gain.cpp))
+- [x] 04. Interesting Gain ([gain.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gain.cpp))
 
-- [x] 05_[달팽이](https://github.com/meanjoo/Algorithm_Assignment_Code#05_%EB%8B%AC%ED%8C%BD%EC%9D%B4) ([snail.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/snail.cpp))
+- [x] 05. 달팽이 ([snail.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/snail.cpp))
 
-- [x] 06_[격자 색칠](https://github.com/meanjoo/Algorithm_Assignment_Code#06_%EA%B2%A9%EC%9E%90-%EC%83%89%EC%B9%A0) ([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/grid.cpp))
+- [x] 06. 격자 색칠 ([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/grid.cpp))
 
 == Divide & Conquer ==
 
-- [x] 07_순열을 이진트리로 ([permutation.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/permutation.cpp))
+- [x] 07. 순열을 이진트리로 ([permutation.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/permutation.cpp))
 
-- [x] 08_Bitmap ([bitmap.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/bitmap.cpp)) - [같은 문제](https://www.acmicpc.net/problem/6397)
+- [x] 08. Bitmap ([bitmap.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/bitmap.cpp)) - [같은 문제](https://www.acmicpc.net/problem/6397)
 
 == Dynamic Programming ==
 
-- [x] 09_[격자 경로](https://github.com/meanjoo/Algorithm_Assignment_Code#09_%EA%B2%A9%EC%9E%90-%EA%B2%BD%EB%A1%9C) ([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gridpath.cpp))
+- [x] 09. 격자 경로 ([gridpath.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/gridpath.cpp))
 
-- [x] 10_[Coin Game](https://github.com/meanjoo/Algorithm_Assignment_Code#10_coin-game) ([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coin.cpp))
+- [x] 10. Coin Game ([coin.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coin.cpp))
 
-- [x] 11_[Coin Move Game](https://github.com/meanjoo/Algorithm_Assignment_Code#11_coin-move-game) ([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coinmove.cpp))
+- [x] 11. Coin Move Game ([coinmove.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/coinmove.cpp))
 
-- [x] 12_[정육면체 자르기](https://github.com/meanjoo/Algorithm_Assignment_Code#12_%EC%A0%95%EC%9C%A1%EB%A9%B4%EC%B2%B4-%EC%9E%90%EB%A5%B4%EA%B8%B0) ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
+- [x] 12. 정육면체 자르기 ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
 
-- [x] 13_[카드 선택](https://github.com/meanjoo/Algorithm_Assignment_Code#13_%EC%B9%B4%EB%93%9C-%EC%84%A0%ED%83%9D) ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp))
+- [x] 13. 카드 선택 ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp))
 
-- [x] 14_[격자경로(또 다른)](https://github.com/meanjoo/Algorithm_Assignment_Code#14_%EA%B2%A9%EC%9E%90%EA%B2%BD%EB%A1%9C%EB%98%90-%EB%8B%A4%EB%A5%B8) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/path.cpp))
+- [x] 14. 격자경로(또 다른) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/path.cpp))
+
+- [ ] 15. Card Game
+
+- [x] 16. Adding Ways
+
+- [ ] 17. Color Length
 
 <hr>
 
