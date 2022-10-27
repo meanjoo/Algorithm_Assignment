@@ -29,11 +29,11 @@
 
 - [x] 12. 정육면체 자르기 ([cube.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/cube.cpp)) - [같은 문제](https://www.acmicpc.net/problem/9029)
 
-- [x] 13. 카드 선택 ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp))
+- [x] 13. 카드 선택 ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card13.cpp))
 
 - [x] 14. 격자경로(또 다른) ([path.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/path.cpp))
 
-- [ ] 15. Card Game
+- [x] 15. Card Game ([card.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/card.cpp)) - [같은 문제](https://www.acmicpc.net/problem/11062)
 
 - [x] 16. Adding Ways ([addingways.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/addingways.cpp))
 
@@ -383,6 +383,40 @@ j-4(=k)번째 카드를 선택하는 경우에도 k-2, k-3, k-4번째 중 무엇
 다 끝나고 다시 보는데 뭔가 94번째 줄이 잘못된 것 같다? 마지막 칸은 k번 이상인 건데 이게 최솟값이 무조건 내 앞에거가 아니라 min(나, 내 앞)이어야 할 거 같은데 그래서 path도 이에 맞게 조정해야 하는 거 같다. 만약 k번 이상 지나가는 최소 구하는 거였으면 잘못된 답이 나올 거 같다.
 
 
+# 15. Card Game
+dp[i][j]가 의미하는 것은 카드가 [i, j]개에서 내가 선일 때 얻을 수 있는 점수의 최댓값이다.  
+카드가 {1 2 5 2}가 있을 때 dp[1][3]은 {1 2 5}에서 내가 선일 때 얻을 수 있는 점수의 최댓값,  
+dp[2][4]는 {2 5 2}에서 내가 선일 때 얻을 수 있는 점수의 최댓값이다.
+
+그렇다면 [1][1], [2][2], ... , [n][n]인 경우는 카드가 1개 있을 때이므로 그냥 그 카드가 내가 선일 때 얻을 수 있는 점수의 최댓값이다.  
+[1][2], [2][3], ... [n-1][n]인 경우는 카드가 2개 있을 때이다.  
+왼쪽 카드와 오른쪽 카드 중에 더 큰 카드를 고르는 것이 내가 선일 때 얻을 수 있는 점수의 최댓값이다.
+
+카드가 3개 이상일 때를 일반화해보자.  
+카드는 맨 앞 아니면 맨 끝에서 가져오는 두 경우로 나눠볼 수 있다.  
+맨 앞 카드의 인덱스를 left, 맨 끝 카드의 인덱스를 right라고 하자.  
+만약 카드를 맨 앞에서 가져왔다면 맨 앞 카드의 값(=card[left]) + 맨 앞 카드를 빼고 나머지 구간 [left+1, right]에서 내가 얻을 수 있는 점수의 최댓값을 구하면 된다.  
+우리는 dp 배열을 통해서 카드 개수가 현재보다 작을 때 자기가 선일 때 얻을 수 있는 점수의 최댓값을 알 수 있다.  
+내가 맨 앞 카드를 가져왔기 때문에 [left+1, right]에서 얻을 수 있는 점수의 최댓값인 dp[left+1][right]는 상대방이 얻을 수 있는 점수의 최댓값이다.  
+어떤 구간 [a, b]에서의 내 점수의 합과 상대방 점수의 합은 [a, b]에 있는 카드의 전체 합과 같다.  
+따라서 [left+1, right]에서 내가 얻을 수 있는 점수의 최댓값은 [left+1, right]에 있는 카드의 합 - dp[left+1][right]이다.  
+구간 합은 누적 합을 통해서 O(1) 시간에 구할 수 있다.  
+즉 [left, right]에서 card[left]를 가져왔을 때 내가 얻을 수 있는 점수의 최댓값은 card[left] + ps[right] - ps[left] - dp[left+1][right]이다.  
+같은 논리로 카드를 맨 끝에서 가져왔다면 내가 얻을 수 있는 점수의 최댓값은 card[right] + ps[right-1] - ps[left-1] - dp[left][right-1]이다.  
+이 둘 중 더 큰 값이 [left, right]에서 내가 선일 때 얻을 수 있는 점수의 최댓값이다.
+
+dp 배열은 ↘ 대각선 순서로 채워주면 된다.
+
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/15relation.jpg" />
+
+
+ex. {1 2 5 2}  
+초록색은 dp 값이고, 괄호 안의 값은 구간 합이다.
+
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/15card.jpg" />
+
+
+
 # 16. Adding Ways
 자연수의 분할 문제다.  
 ① P(n, 1) = P(n, n) = 1  
@@ -400,4 +434,4 @@ n-k를 다 k개한테 나눠주고 나서 n-k를 k개로 나누는 P(n-k, k) 또
 
 ②와 ③은 식의 형태만 다르지 값은 (당연하게도) 같다.  
 반복을 돌아야하는 ②와 달리 ③은 이전에 계산했던 결과만 보면 되기 때문에 ③이 더 빠르게 처리할 수 있다.  
-①과 ③을 이용해서 문제를 해결했다.
+①과 ③을 이용해서 bottom-up 방식으로 문제를 해결했다.
