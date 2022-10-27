@@ -37,7 +37,7 @@
 
 - [x] 16. Adding Ways ([addingways.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/addingways.cpp))
 
-- [ ] 17. Color Length
+- [x] 17. Color Length ([color.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/color.cpp)) - [같은 문제](https://www.acmicpc.net/problem/8902)
 
 <hr>
 
@@ -185,7 +185,8 @@ dp[i][j][k]가 coin의 상태가 (i j k)일 때 나의 승패라고 했는데 �
 - (0 4 1)
 <img src="https://github.com/meanjoo/LinkPicture/blob/main/coin041.JPG"/>
 
-** 뭔가 Misere nim을 쓸 수 있을 거 같은데 이 이론을 잘 모르겠어서 어떻게 하는지를 모르겠고 적용이 가능한지도 모르겠다.
+** 뭔가 Misere nim을 쓸 수 있을 거 같은데 이 이론을 잘 모르겠어서 어떻게 하는지를 모르겠고 적용이 가능한지도 모르겠다.  
+→ 가능함
 
 # 11_Coin Move Game
 Bottom-up 방식으로 짰다. memoization을 하기 위한 배열을 2차원 배열로 둔다.  
