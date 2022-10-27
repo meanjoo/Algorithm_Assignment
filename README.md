@@ -461,3 +461,4 @@ car1과 car2를 입력받고 맨 앞에 공백을 하나 넣어준 이유는
 여기서 연산을 좀 편하게 하기 위해서 맨 앞에 공백을 넣어줬다.
 
 아래는 문제에 있는 예제 입력 중 두 문자열이 GBBY, YRRGB일 때 완성된 dp 배열의 모습이다.  
+<img src="https://github.com/meanjoo/LinkPicture/blob/main/ex17.jpg" />
