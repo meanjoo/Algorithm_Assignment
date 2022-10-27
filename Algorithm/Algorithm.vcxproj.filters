@@ -69,6 +69,9 @@
     <ClCompile Include="card.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.inp">
@@ -165,6 +168,12 @@
       <Filter>리소스 파일</Filter>
     </None>
     <None Include="card.out">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="color.inp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="color.out">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
