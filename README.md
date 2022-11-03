@@ -39,6 +39,12 @@
 
 - [x] 17. Color Length ([color.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/color.cpp)) - [같은 문제](https://www.acmicpc.net/problem/8902)
 
+== Greedy ==
+
+- [ ] 18. Recycling Bins
+
+- [x] 19. MST ([mst.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/mst.cpp))
+
 <hr>
 
 # 05_달팽이
@@ -464,3 +470,13 @@ car1과 car2를 입력받고 맨 앞에 공백을 하나 넣어준 이유는
 
 아래는 문제에 있는 예제 입력 중 두 문자열이 GBBY, YRRGB일 때 완성된 dp 배열의 모습이다.  
 <img src="https://github.com/meanjoo/LinkPicture/blob/main/ex17.jpg" />
+
+
+# 19. MST
+그냥 크루스칼 알고리즘이랑 프림 알고리즘 구현하면 되는 문제이다.  
+간선 정보 저장할 때 처음 입력 순서를 추가적인 정보로 넣어주면 된다. 최소 가중치가 여러 개면 입력 순서가 먼저인 것을 선택하도록 하기 위함이다.
+
+MST 만들 때 거의 100% 크루스칼로 짜서 프림으로 구현하는 게 좀 헷갈렸다. dijkstra랑 비슷하다고 생각하면 좀 편할 거 같다.  
+채점 말고 예제 테케 넣었을 때 프림 쪽에서 이상하게 나왔었는데 그 이유가 무방향 그래픈데 한 방향만 간선을 추가해줬었기 때문이다.  
+크루스칼에서 인접 그래프를 안 쓰니까 처음에 프림에서 뭐가 잘못된지 몰랐었다. ㅋㅋ..  
+그냥 구현 문제였다.
