@@ -142,6 +142,9 @@
     <ClCompile Include="addingways.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="bin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="bitmap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -207,6 +210,8 @@
   <ItemGroup>
     <None Include="addingways.inp" />
     <None Include="addingways.out" />
+    <None Include="bin.inp" />
+    <None Include="bin.out" />
     <None Include="bitmap.inp" />
     <None Include="bitmap.out" />
     <None Include="card.inp" />
