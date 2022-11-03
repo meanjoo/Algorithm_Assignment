@@ -39,9 +39,9 @@
 
 - [x] 17. Color Length ([color.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/color.cpp)) - [같은 문제](https://www.acmicpc.net/problem/8902)
 
-== Greedy ==
-
 - [ ] 18. Recycling Bins
+
+== Greedy ==
 
 - [x] 19. MST ([mst.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/mst.cpp))
 
