@@ -180,6 +180,9 @@
     <ClCompile Include="gridpath.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="mst.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="path.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -224,6 +227,8 @@
     <None Include="grid.out" />
     <None Include="gridpath.inp" />
     <None Include="gridpath.out" />
+    <None Include="mst.inp" />
+    <None Include="mst.out" />
     <None Include="path.inp" />
     <None Include="path.out" />
     <None Include="permutation.inp" />
