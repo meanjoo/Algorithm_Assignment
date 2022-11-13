@@ -78,6 +78,15 @@
     <ClCompile Include="bin.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="watertank.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="drive.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="freelancer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="test.inp">
@@ -192,6 +201,24 @@
       <Filter>리소스 파일</Filter>
     </None>
     <None Include="bin.out">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="watertank.inp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="watertank.out">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="drive.inp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="drive.out">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="freelancer.inp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="freelancer.out">
       <Filter>리소스 파일</Filter>
     </None>
   </ItemGroup>
