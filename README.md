@@ -41,6 +41,8 @@
 
 - [x] 18. Recycling Bins ([bin.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/bin.cpp))
 
+- [x] 20. Driving License ([drive.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/drive.cpp))
+
 == Greedy ==
 
 - [x] 19. MST ([mst.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/mst.cpp))
