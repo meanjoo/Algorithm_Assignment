@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #define endl '\n'
 using namespace std;
-const int INF = 9999;
+const int INF = 7654321; // espa에서 할 때 이거 9999로 제출해서 100 받았는데 어떻게 100 받은 거지
 
 typedef struct info2 {
 	// fuel1, turn1은 오른쪽 방향을 보고 있는 것, fuel2, turn2는 아래쪽 방향을 보고 있는 것
