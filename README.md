@@ -1,6 +1,8 @@
 # Algorithm_Assignment_Code
 2022-2학기 알고리즘 과제
 
+== 구현 ==
+
 - [x] 01. Test ([test.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/test.cpp))
 
 - [x] 02. Spin & Slide ([spinslide.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/spinslide.cpp))
@@ -12,6 +14,8 @@
 - [x] 05. 달팽이 ([snail.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/snail.cpp))
 
 - [x] 06. 격자 색칠 ([grid.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/grid.cpp))
+
+- [x] 23. Block Compaction
 
 == Divide & Conquer ==
 
@@ -46,6 +50,14 @@
 == Greedy ==
 
 - [x] 19. MST ([mst.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/mst.cpp))
+
+- [x] 21. 물탱크
+
+- [x] 24. 비밀접선
+
+== ? ==
+
+- [ ] 22. Freelancer
 
 <hr>
 
