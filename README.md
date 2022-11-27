@@ -51,9 +51,9 @@
 
 - [x] 19. MST ([mst.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/mst.cpp))
 
-- [x] 21. 물탱크
+- [x] 21. 물탱크 ([water.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/water.cpp))
 
-- [x] 24. 비밀접선
+- [x] 24. 비밀접선 ([contact.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/contact.cpp))
 
 == ? ==
 
