@@ -55,7 +55,7 @@
 
 - [x] 24. 비밀접선 ([contact.cpp](https://github.com/meanjoo/Algorithm_Assignment_Code/blob/master/Algorithm/contact.cpp))
 
-== ? ==
+== Best-first search branch and bound ==
 
 - [ ] 22. Freelancer
 
